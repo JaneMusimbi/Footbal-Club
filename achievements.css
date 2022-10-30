@@ -1,0 +1,297 @@
+@import url('https://fonts.googleapis.com/css2?family=poppins:wght@100;200;300;400;500;600;700;800;900$display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav{
+    /* position: fixed; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1vw 8vw;
+    height: 90px;
+    width: 100%;
+    align-items: center;
+    box-shadow: 2px 2px 10px rgb(0,0,0,0.15);
+}
+.nav img{
+   width:170px; 
+   height:150px;
+}
+
+.navigation ul{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+} 
+.navigation ul li{
+    list-style: none;
+    margin-left: 30px;
+
+}
+.navigation ul li a{
+    text-decoration: none;
+    color: rgb(21,21,100);
+    font-size: 18px;
+    font-weight: 500;
+    transition: 0.3s ease;
+}
+.navigation ul li a:hover{
+    color: #f30e29;
+}
+.achievements{
+    text-align: center;
+    height: 100vh; 
+   
+}
+
+ .achievements img{
+    width: 1050px;
+    height: 600px;
+    background-color: #f30e29;
+    width: 100%;
+    margin-bottom: 90px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} 
+.achievements h1{
+    font-size: 50px;
+    margin-top: -660px;
+    color: rgb(23, 57, 130);
+}
+/* .achived h2{
+    margin-left:500px;
+    font-size: 15px;
+    margin-top: 320px;
+} */
+ p{
+margin-top: 550px;
+font-size: 30px;
+margin-left: 140px;
+}
+.success{
+    margin-top: 40px;
+    font-size: 15px;
+    color: rgb(25, 25, 25);
+    padding: 40px;
+}
+.measure{
+    margin-left: 460px;
+}
+.right-arrow {
+
+    width: 0; 
+    height: 0; 
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 10px solid green;
+    margin: 2rem;
+    } 
+p{
+color: rgb(6, 6, 6);
+margin-top: -60px;
+margin-left: 48px;
+font-size: 25px;
+
+  
+   
+    }
+
+.achiev1 {
+    display: flex;
+    width: 300px;
+    margin-top: 80px;
+    margin-left: 60px;
+}
+.achiev2{
+    display: flex;
+    width: 300px;
+    margin-top: 40px;
+    margin-left: 95px;
+}
+.achiev3{
+    display: flex;
+    width: 300px;
+    margin-top: 40px;
+    margin-left: 80px;
+}
+.achiev4{
+    display: flex;
+    margin-top: 50px;
+    width: 300px;
+    margin-top: 40px;
+    margin-left: 80px;
+}
+.achiev5{
+    display: flex;
+    margin-top: 50px;
+    width: 300px;
+    margin-top: 40px;
+    margin-left: 80px;
+}
+.achiev1 .img1  {
+background-color: rgb(134, 134, 134);
+padding: 20px;
+text-align: center;
+color: white;
+margin: 10px;
+margin-top:10px;
+border-radius: 20px;
+box-shadow: 5px 5px rgb(68, 68, 68);
+margin-left: 40px;
+}
+.achiev1 .img2  {
+    background-color: rgb(134, 134, 134);
+    padding: 20px;
+    text-align: center;
+    color: white;
+    margin: 10px;
+    /* margin-left: 40px; */
+    margin-top: 10px;
+    border-radius: 20px;
+    box-shadow: 5px 5px rgb(68, 68, 68);
+    }
+    .achiev1 .img3 {
+        background-color: rgb(134, 134, 134);
+        padding: 20px;
+        text-align: center;
+        /* margin-left: 500px; */
+        color: white;
+        margin: 10px;
+        margin-top: 10px;
+        border-radius: 20px;
+        box-shadow: 5px 5px rgb(68, 68, 68);
+        }
+
+/* achieve2         */
+
+        .achiev2 .img1  {
+            background-color: rgb(134, 134, 134);
+            padding: 20px;
+            text-align: center;
+            color: white;
+            margin: 10px;
+            margin-top: 10px;
+            border-radius: 20px;
+            box-shadow: 5px 5px rgb(68, 68, 68);
+            }
+            .achiev2 .img2  {
+                background-color: rgb(134, 134, 134);
+                padding: 20px;
+                text-align: center;
+                color: white;
+                margin: 10px;
+                margin-top: 10px;
+                border-radius: 20px;
+                box-shadow: 5px 5px rgb(68, 68, 68);
+                }
+                .achiev2 .img3 {
+                    background-color: rgb(134, 134, 134);
+                    padding: 20px;
+                    text-align: center;
+                    color: white;
+                    margin: 10px;
+                    margin-top: 10px;
+                    border-radius: 20px;
+                    box-shadow: 5px 5px rgb(68, 68, 68);
+                    } 
+/* achieve3                            */
+.achiev3 .img1  {
+    background-color: rgb(134, 134, 134);
+    padding: 20px;
+    text-align: center;
+    color: white;
+    margin: 10px;
+    margin-top: 10px;
+    border-radius: 20px;
+    box-shadow: 5px 5px rgb(68, 68, 68);
+    margin-left: 40px;
+    }
+    .achiev3 .img2  {
+        background-color: rgb(134, 134, 134);
+        padding: 20px;
+        text-align: center;
+        color: white;
+        margin: 10px;
+        /* margin-left: 40px; */
+        margin-top: 10px;
+        border-radius: 20px;
+        box-shadow: 5px 5px rgb(68, 68, 68);
+        }
+        .achiev3 .img3 {
+            background-color: rgb(134, 134, 134);
+            padding: 20px;
+            text-align: center;
+            /* margin-left: 500px; */
+            color: white;
+            margin: 10px;
+            margin-top: 10px;
+            border-radius: 20px;
+            box-shadow: 5px 5px rgb(68, 68, 68);
+            }
+/* achiev4             */
+.achiev4 .img1  {
+    background-color: rgb(134, 134, 134);
+    padding: 20px;
+    text-align: center;
+    color: white;
+    margin: 10px;
+    margin-top: 10px;
+    border-radius: 20px;
+    box-shadow: 5px 5px rgb(68, 68, 68);
+    margin-left: 40px;
+    }
+    .achiev4 .img2  {
+        background-color: rgb(134, 134, 134);
+        padding: 20px;
+        text-align: center;
+        color: white;
+        margin: 10px;
+        /* margin-left: 40px; */
+        margin-top: 10px;
+        border-radius: 20px;
+        box-shadow: 5px 5px rgb(68, 68, 68);
+        }
+        .achiev4 .img3 {
+            background-color: rgb(134, 134, 134);
+            padding: 20px;
+            text-align: center;
+            /* margin-left: 500px; */
+            color: white;
+            margin: 10px;
+            margin-top: 10px;
+            border-radius: 20px;
+            box-shadow: 5px 5px rgb(68, 68, 68);
+            }
+/* achiev5             */
+.achiev5 .img5 {
+    background-color: rgb(134, 134, 134);
+    padding: 20px;
+    text-align: center;
+    color: white;
+    margin: 10px;
+    margin-top: 10px;
+    border-radius: 20px;
+    box-shadow: 5px 5px rgb(68, 68, 68);
+    margin-left: 40px;
+    }
+
+h1{
+    text-align: center;
+    margin-top: 20px;
+    color: rgb(2, 2, 2);
+} 
+#success{
+    margin-top: 600px;
+    color: blue;
+} 
+.measure{
+    margin-left: -30px;
+    color: rgb(53, 115, 209);
+}  
